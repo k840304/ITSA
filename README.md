@@ -1,2 +1,2 @@
 # ITSA
-There is my solution of ITSA.
+There is my solution for ITSA.
