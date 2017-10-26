@@ -7,7 +7,7 @@ int main(){
     int qty1, qty2;
     scanf("%*d");
     while(scanf("%d", &n) > 0){
-        for(i = 0; i < 1000001; i++){
+        for(i = 0; i <= n; i++){
             dp[i] = 1000001;
             road[i] = 0;
         }
