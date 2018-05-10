@@ -19,7 +19,7 @@ int main(){
                 if(dp[k] > dp[k - coin[j]] + 1){
                     dp[k] = dp[k - coin[j]] + 1;
                     road[k] = j;
-    			}
+                }
             }
         }
         printf("%d\n", dp[n]);
