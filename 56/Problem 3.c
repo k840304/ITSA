@@ -17,8 +17,8 @@ int main(){
         for(j = 0; j <= i; j++){
             for(k = coin[j]; k <= n; k++){
                 if(dp[k] > dp[k - coin[j]] + 1){
-    				dp[k] = dp[k - coin[j]] + 1;
-    				road[k] = j;
+                    dp[k] = dp[k - coin[j]] + 1;
+                    road[k] = j;
     			}
             }
         }
